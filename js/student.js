@@ -1,5 +1,6 @@
-const students = [];
-function addStudent(name, major) {
-    students.push({ id: students.length + 1, name, major });
-    console.log(`[학생 등록] ${name}`);
+// Student registration functionality
+console.log("Student registration module loaded");
+
+function registerStudent(name, age) {
+    console.log(`Registering student: ${name}, Age: ${age}`);
 }
